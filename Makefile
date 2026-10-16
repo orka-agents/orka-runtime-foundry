@@ -17,4 +17,4 @@ verify: vet test build
 	@test -z "$$(gofmt -l .)"
 
 docker-build:
-	docker build -t agent-runtime-foundry .
+	docker build -t orka-runtime-foundry .

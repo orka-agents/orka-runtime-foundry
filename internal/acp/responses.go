@@ -8,7 +8,7 @@ import (
 	"mime"
 	"net/http"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 // ACP never constructs a Foundry SDK client: the privileged supervisor owns the

@@ -28,7 +28,7 @@ COPY --from=runtime --chown=0:0 --chmod=0444 /agent/foundry.json /agent/foundry.
 COPY --chown=0:0 --chmod=0444 ${HOSTED_CONFIG} /agent/hosted.json
 ENV PORT=8088 ORKA_ACP_FOUNDRY_ADAPTER_DIGEST=${FOUNDRY_ADAPTER_DIGEST}
 LABEL org.opencontainers.image.title="Orka-governed Foundry Hosted Agent" \
-      org.opencontainers.image.source="https://github.com/orka-agents/agent-runtime-foundry" \
+      org.opencontainers.image.source="https://github.com/orka-agents/orka-runtime-foundry" \
       io.orka.harness.protocol="orka.harness.v2"
 WORKDIR /
 # Only the supervisor is privileged. It assigns distinct UIDs/GIDs to ACP children.

@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/brokerapi"
+	"github.com/orka-agents/orka-runtime-foundry/internal/brokerapi"
 )
 
 // Exercise cancellation while the real hosted AgentKit is awaiting a model.

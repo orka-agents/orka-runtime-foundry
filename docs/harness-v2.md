@@ -159,7 +159,7 @@ for workflows that need several lookups before answering.
 ## Human approvals
 
 Use matched builds containing [Orka's brokered approval support](https://github.com/orka-agents/orka/issues/582),
-[this bridge's approval integration](https://github.com/orka-agents/agent-runtime-foundry/issues/4),
+[this bridge's approval integration](https://github.com/orka-agents/orka-runtime-foundry/issues/4),
 and [AgentKit's approval compatibility](https://github.com/sozercan/agentkit/issues/26).
 Older bridges impose a two-minute tool limit. The Orka v2 runtime must advertise
 `supportsBrokeredToolApprovals: true` for the qualified provider combination;

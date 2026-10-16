@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/brokerapi"
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/brokerapi"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 const brokerIdentityRemoteSession = "11111111-1111-4111-8111-111111111111"

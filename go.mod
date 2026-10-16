@@ -1,4 +1,4 @@
-module github.com/orka-agents/agent-runtime-foundry
+module github.com/orka-agents/orka-runtime-foundry
 
 go 1.26.5
 

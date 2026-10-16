@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/strictjson"
+	"github.com/orka-agents/orka-runtime-foundry/internal/strictjson"
 )
 
 var ErrResponse = errors.New("Foundry ACP provider request failed")

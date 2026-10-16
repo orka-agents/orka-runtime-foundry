@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/redact"
+	"github.com/orka-agents/orka-runtime-foundry/internal/redact"
 )
 
 const executionEventRedactedValue = "[REDACTED]"

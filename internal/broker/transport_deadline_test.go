@@ -18,8 +18,8 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/brokerapi"
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/brokerapi"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 // These tests use the production HTTP transport and real HTTP encoding over
