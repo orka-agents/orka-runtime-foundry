@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/orka-agents/agent-runtime-foundry/internal/brokerapi"
-	"github.com/orka-agents/agent-runtime-foundry/internal/durablestore"
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/brokerapi"
+	"github.com/orka-agents/orka-runtime-foundry/internal/durablestore"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 func hostedBoundaryLedgerFixture(t *testing.T) (hostedGatewayConfig, hostedGatewayLedger) {

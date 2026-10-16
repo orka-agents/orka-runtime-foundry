@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
-	"github.com/orka-agents/agent-runtime-foundry/internal/strictjson"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/strictjson"
 )
 
 const acpMCPVersion = "2025-06-18"

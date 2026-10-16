@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/orka-agents/agent-runtime-foundry/internal/events"
-	"github.com/orka-agents/agent-runtime-foundry/internal/harness"
+	"github.com/orka-agents/orka-runtime-foundry/internal/events"
+	"github.com/orka-agents/orka-runtime-foundry/internal/harness"
 )
 
 const (

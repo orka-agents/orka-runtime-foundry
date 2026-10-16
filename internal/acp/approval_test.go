@@ -15,7 +15,7 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 // Real HTTP encoding and the production transport run over net.Pipe, so virtual

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
-	"github.com/orka-agents/agent-runtime-foundry/internal/strictjson"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/strictjson"
 )
 
 const acpMaxResponseRounds = 32

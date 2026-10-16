@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/harness"
+	"github.com/orka-agents/orka-runtime-foundry/internal/harness"
 )
 
 const (

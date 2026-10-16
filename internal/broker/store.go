@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/orka-agents/agent-runtime-foundry/internal/durablestore"
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
-	"github.com/orka-agents/agent-runtime-foundry/internal/strictjson"
+	"github.com/orka-agents/orka-runtime-foundry/internal/durablestore"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/strictjson"
 )
 
 const brokerMaxLedgerBytes = 32 << 20

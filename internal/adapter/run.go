@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 // Serve runs the harness v1 HTTP adapter using its environment configuration.

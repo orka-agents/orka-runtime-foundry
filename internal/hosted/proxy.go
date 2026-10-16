@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/brokerapi"
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/brokerapi"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 // A fresh HTTP/1 connection for each local hop prevents the standard

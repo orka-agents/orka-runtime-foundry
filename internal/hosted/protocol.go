@@ -15,7 +15,7 @@ import (
 
 	"filippo.io/edwards25519"
 	"github.com/google/uuid"
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 const hostedProtocol = "orka.foundry.hosted.v1"

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/durablestore"
+	"github.com/orka-agents/orka-runtime-foundry/internal/durablestore"
 )
 
 type Fixture struct {

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"testing/synctest"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 func TestACPFatalToolBatchDoesNotAdmitQueuedCalls(t *testing.T) {

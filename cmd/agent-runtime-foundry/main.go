@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/acp"
-	"github.com/orka-agents/agent-runtime-foundry/internal/adapter"
-	"github.com/orka-agents/agent-runtime-foundry/internal/broker"
-	"github.com/orka-agents/agent-runtime-foundry/internal/hosted"
+	"github.com/orka-agents/orka-runtime-foundry/internal/acp"
+	"github.com/orka-agents/orka-runtime-foundry/internal/adapter"
+	"github.com/orka-agents/orka-runtime-foundry/internal/broker"
+	"github.com/orka-agents/orka-runtime-foundry/internal/hosted"
 )
 
 func main() {

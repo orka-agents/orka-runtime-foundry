@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/brokerapi"
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/brokerapi"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 // The broker is idle while Orka holds tools/call. Its completed proposal and

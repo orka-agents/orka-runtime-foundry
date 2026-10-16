@@ -20,7 +20,7 @@ The adapter calls the Hosted Agent's dedicated Responses endpoint:
 ```
 
 It does not use the classic Threads/Runs API. The preserved classic adapter is
-[`orka-agents/agent-runtime-foundry-classic`](https://github.com/orka-agents/agent-runtime-foundry-classic).
+[`orka-agents/orka-runtime-foundry-classic`](https://github.com/orka-agents/orka-runtime-foundry-classic).
 
 Foundry identifiers and Azure credentials stay inside this adapter deployment.
 Orka continues to own task lifecycle, brokered tool policy, approvals,
@@ -101,7 +101,7 @@ spec:
       serviceAccountName: foundry-hosted-runtime
       containers:
         - name: adapter
-          image: ghcr.io/orka-agents/agent-runtime-foundry:latest
+          image: ghcr.io/orka-agents/orka-runtime-foundry:latest
           env:
             - name: ORKA_FOUNDRY_PROJECT_ENDPOINT
               value: https://account.services.ai.azure.com/api/projects/project
@@ -166,13 +166,14 @@ by default in CI.
 
 ```bash
 make build
-docker build -t ghcr.io/orka-agents/agent-runtime-foundry:latest .
+docker build -t ghcr.io/orka-agents/orka-runtime-foundry:latest .
 ```
 
 ## Code layout
 
-The binary entry point is in `cmd/agent-runtime-foundry`. The default mode serves
-harness v1 HTTP. Use `--protocol` to select `acp`, `broker`, `hosted`, or
+The binary entry point is in `cmd/agent-runtime-foundry`. The binary keeps the
+`/agent-runtime-foundry` name because Orka's ACP supervisor invokes that path.
+The default mode serves harness v1 HTTP. Use `--protocol` to select `acp`, `broker`, `hosted`, or
 `hosted-gateway`.
 
 | Directory | Responsibility |

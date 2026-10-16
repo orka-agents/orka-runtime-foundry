@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/orka-agents/agent-runtime-foundry/internal/acp"
-	"github.com/orka-agents/agent-runtime-foundry/internal/brokerapi"
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/acp"
+	"github.com/orka-agents/orka-runtime-foundry/internal/brokerapi"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
 )
 
 // This opt-in test runs AgentKit's production hosted server and model loop,

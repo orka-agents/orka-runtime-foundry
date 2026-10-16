@@ -13,8 +13,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
-	"github.com/orka-agents/agent-runtime-foundry/internal/foundry"
-	"github.com/orka-agents/agent-runtime-foundry/internal/strictjson"
+	"github.com/orka-agents/orka-runtime-foundry/internal/foundry"
+	"github.com/orka-agents/orka-runtime-foundry/internal/strictjson"
 )
 
 type hostedWebSocketDial func(context.Context, string, http.Header) (*websocket.Conn, *http.Response, error)
